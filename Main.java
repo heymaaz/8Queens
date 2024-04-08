@@ -1,8 +1,9 @@
 class Main {
     static int count = 0;
+    static final int NUM_QUEENS = 8;
     public static void main(String[] args) {
         // 8 queens problem
-        int n = 8;
+        int n = NUM_QUEENS;
         int[] board = new int[n];
         for (int i = 0; i < n; i++) {
             board[i] = -1;
